@@ -22,3 +22,18 @@
 //	* 15% de la calificaci√≥n de un trabajo final.
 //Ej10. Pide al usuario dos n√∫meros y muestra la "distancia" entre ellos 
 //	(el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
+//Ej11. Realizar un algoritmos que lea un n√∫mero y que muestre su ra√≠z cuadrada 
+//	y su ra√≠z c√∫bica.
+//Ej12. Dadas dos variables num√©ricas A y B, que el usuario debe teclear, 
+//	se pide realizar un algoritmo que intercambie los valores de ambas variables 
+//	y muestre cuanto valen al final las dos variables.
+//Ej13. Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. 
+//	El tiempo de viaje hasta llegar a otra ciudad B es de T segundos. 
+//	Escribir un algoritmo que determine la hora de llegada a la ciudad B.
+//Ej14. Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.
+//Ej15. Escribir un algoritmo para calcular la nota final de un estudiante, considerando que: 
+//	por cada respuesta correcta 5 puntos, por una incorrecta -1 y por respuestas en 
+//	blanco 0. Imprime el resultado obtenido por el estudiante.
+//Ej16. DiseÒar un algoritmo que nos diga el dinero que tenemos (en euros y cÈntimos) 
+//despuÈs de pedirnos cuantas monedas tenemos de 2e, 1e, 50 cÈntimos, 20 cÈntimos 
+//o 10 cÈntimos).
