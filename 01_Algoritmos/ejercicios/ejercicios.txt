@@ -1,0 +1,8 @@
+//Esos ejercicios podeis crearos un paquete por cada uno llamandolo
+//ejercicioX
+
+//Ej1. Calcular el perí­metro y área de un rectángulo dada su base y su altura.
+//Ej2. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
+//Ej3. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+//Ej4. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados 
+//	   Celsius.
