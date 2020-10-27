@@ -1,0 +1,100 @@
+//Ej1 Tenemos que pedir dos números por teclado, compararlos 
+//e indicar si el primero es mayor que el segundo o no.
+
+//Ej2 Tenemos que pedir un número por teclado, compararlo con 0, e indicar si es igual, 
+//mayor o menor que 0.
+
+//Ej 3 Tenemos que pedir un número por teclado, y comprobar si es par o impar.
+// Datos de entrada: número (entero)
+
+//Ej 4 pedimos por teclado nombre y contraseña
+// si coinciden con las correctas indicamos que se ha entrado en el 
+// sistema.
+// en caso contrario indicamos que el nombre o la clave son incorrectas
+
+//Ej 5 Pedimos por teclado una cadena 
+//y hay que comprobar que todas las letras sean mayúsculas.
+//NOTA: hay un metodo en la clase String que es toUpperCase(), que
+//convierte la cadena a mayusculas
+
+//Ej 6 // Pedimos por teclado dos números: base y exponente
+// Tenemos que comprobar el exponente: si es 0 la potencia es 1, 
+// si es menor que 0 la potencia es 1/potencia (con el exponente positivo) 
+// y si es mayor que 0 se calcula la potencia.
+
+//Ej 7 //Algoritmo que pida dos números 'nota' y 'edad' y un carácter 
+'sexo' muestre el mensaje 'ACEPTADA' si la nota es mayor o igual a cinco, 
+//la edad es mayor o igual a dieciocho y el sexo es 'F'. 
+//En caso de que se cumpla lo mismo, pero el sexo sea 'M', debe imprimir 'POSIBLE'. 
+//Si no se cumplen dichas condiciones se debe mostrar 'NO ACEPTADA'.
+
+//Ej 8 //Algoritmo que pida tres números y los muestre ordenados (de mayor a menor);
+
+//Ej 9 //Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos 
+//circunferencias y las clasifique en uno de estos estados:
+//exteriores
+//tangentes exteriores
+//secantes
+//tangentes interiores
+//interiores
+//concéntricas
+
+//Ej 10 //Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las 
+//dimensiones de los lados de un triángulo. 
+//El programa debe determinar que tipo de triángulo es, teniendo en cuenta:
+//Si se cumple Pitágoras entonces es triángulo rectángulo
+//Si sólo dos lados del triángulo son iguales entonces es isósceles.
+//Si los 3 lados son iguales entonces es equilátero.
+//Si no se cumple ninguna de las condiciones anteriores, es escaleno.
+
+//Ej 11//Escribir un programa que lea un año indicar si es bisiesto. 
+//Nota: un año es bisiesto si es un número divisible por 4, pero no si es 
+//divisible por 100, excepto que también sea divisible por 400.
+
+//Ej 12 //Escribe un programa que pida una fecha (día, mes y año) y diga si es correcta.
+
+//Ej 13 // La asociación de vinicultores tiene como política fijar un precio inicial 
+// al kilo de uva, la cual se clasifica en tipos A y B,  y además en tamaños 1 y 2. 
+// Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, 
+//se requiere determinar cuánto recibirá un productor por la uva que entrega en un 
+//embarque, considerando lo siguiente: 
+// si es de tipo A, se le cargan 20 céntimos al precio inicial cuando es 
+// de tamaño 1; y 30 céntimos si es de tamaño 2. 
+// Si es de tipo B, se rebajan 30 céntimos cuando es de tamaño 1, y 50 céntimos 
+// cuando es de tamaño 2. 
+
+//Ej 14 //El director de una escuela está organizando un viaje de estudios, y requiere 
+//determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de 
+//viajes por el servicio. La forma de cobrar es la siguiente: 
+//si son 100 alumnos o más, el costo por cada alumno es de 65 euros; 
+//de 50 a 99 alumnos, el costo es de 70 euros, de 30 a 49, de 95 euros, 
+//y si son menos de 30, el costo de la renta del autobús es de 4000 euros, 
+//sin importar el número de alumnos. 
+//Realice un algoritmo que permita determinar el pago a la compañía de autobuses 
+//y lo que debe pagar cada alumno por el viaje.
+
+//Ej 15 //La política de cobro de una compañía telefónica es: cuando se realiza una 
+//llamada, el cobro es por el tiempo que ésta dura, de tal forma que los primeros 
+//cinco minutos cuestan 1 euro, los siguientes tres, 80 céntimos,
+//los siguientes dos minutos, 70 céntimos, y a partir del décimo minuto, 50 céntimos.
+//Además, se carga un impuesto de 3 % cuando es domingo, y si es otro día, en turno
+//de mañana, 15 %, y en turno de tarde, 10 %. 
+//Realice un algoritmo para determinar cuánto debe pagar por cada concepto 
+//una persona que realiza una llamada.
+
+Ej 16 //Realiza un programa que pida por teclado el resultado (dato entero) obtenido 
+//al lanzar un dado de seis caras y muestre por pantalla el número en letras 
+//(dato cadena) de la cara opuesta al resultado obtenido.
+//* Nota 1: En las caras opuestas de un dado de seis caras están los números: 
+//1-6, 2-5 y 3-4.
+//* Nota 2: Si el número del dado introducido es menor que 1 o mayor que 6, 
+//se mostrará el mensaje: "ERROR: número incorrecto.".
+
+Ej 17 //Escribe un programa que pida un número entero entre uno y doce e imprima el 
+//número de días que tiene el mes correspondiente.
+// Si introducimos otro número nos da un error.
+
+Ej 18 // Una compañía de transporte internacional tiene servicio en algunos países de 
+// América del Norte, América Central, América del Sur, Europa y Asia.
+// El costo por el servicio de transporte se basa en el peso del paquete 
+// y la zona a la que va dirigido...
