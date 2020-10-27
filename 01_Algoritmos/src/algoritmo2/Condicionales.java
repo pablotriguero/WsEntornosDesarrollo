@@ -81,5 +81,53 @@ public class Condicionales {
 			System.out.println("El mes introducido no lo reconozco ☹");
 		}		
 		
+		//Para la setencia if-elseif-else, 
+		//podemos usar en su lugar la setencia switch
+		//SON EQUIVALENTES
+		switch (mes) {//valoramos la variable
+		case 1://valoramos cada valor de la variable, en caso de que mes valga 1
+			System.out.println("Estamos en ENERO");
+			break;//siempre hay que romper el caso, porque sino
+			//se ejecutan todos los casos que haya por debajo
+			//aunque NO se cumplan
+		case 2://notese que aqui no ponemos llaves
+			System.out.println("estamos en FEBRERO");
+			break;
+		case  3:
+			System.out.println("estamos en MARZO");
+			break;
+		case  4:
+			System.out.println("estamos en ABRIL");
+			break;
+		case  5:
+			System.out.println("estamos en MAYO");
+			break;
+		case  6:
+			System.out.println("estamos en JUNIO");
+			break;
+		case  7:
+			System.out.println("estamos en JULIO");
+			break;
+		case  8:
+			System.out.println("estamos en AGOSTO");
+			break;
+		case  9:
+			System.out.println("estamos en SEPTIEMBRE");
+			break;
+		case  10:
+			System.out.println("estamos en OCTUBRE");
+			break;
+		case  11:
+			System.out.println("estamos en NOVIEMBRE");
+			break;
+		case  12:
+			System.out.println("estamos en DICIEMBRE");
+			break;
+		default://equivalente a else, 
+				//en caso de que no se cumplan ningun case anterior
+			break;
+		}
+		
+		
 	}
 }
