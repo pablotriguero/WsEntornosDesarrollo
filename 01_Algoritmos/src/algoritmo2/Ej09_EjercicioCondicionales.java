@@ -2,7 +2,7 @@ package algoritmo2;
 
 import java.util.Scanner;
 
-public class EjercicioCondicionales9 {
+public class Ej09_EjercicioCondicionales {
 
 	public static void main(String[] args) {
 		//pedir los numeros por pantalla
@@ -32,6 +32,7 @@ public class EjercicioCondicionales9 {
 		double sumaRadios = r1 + r2;
 		double restaRadios = r2 - r1;
 		
+		//sacado a partir de http://maralboran.org/wikipedia/index.php/Plantilla:Posici%C3%B3n_circ-circ
 		if(distancia > sumaRadios) {
 			System.out.println("Las dos circunferencias son exteriores");
 		}else if(distancia == sumaRadios) {

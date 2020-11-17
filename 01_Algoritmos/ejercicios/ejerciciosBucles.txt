@@ -1,0 +1,43 @@
+//Esos ejercicios podeis crearos un paquete por cada uno llamandolo
+//ejercicioX
+
+//EJ 1
+//Crea una aplicación que pida un número y calcule su factorial (El factorial de 
+//un número es el producto de todos los enteros entre 1 y el propio número y se 
+//representa por el número seguido de un signo de exclamación. 
+//Por ejemplo 5! = 1x2x3x4x5=120)
+
+EJ 2
+//Algoritmo que pida números hasta que se introduzca un cero. Debe imprimir la suma
+// y la media de todos los números introducidos.
+
+EJ 3 
+//Crea una aplicación que permita adivinar un número. La aplicación genera un 
+// número aleatorio del 1 al 20. A continuación va pidiendo números y va 
+// respondiendo si el número a adivinar es mayor o menor que el introducido,
+// a demás de los intentos que te quedan (tienes 5 intentos para acertarlo). 
+// El programa termina cuando se acierta el número (además te dice en cuantos 
+//intentos lo has acertado), si se llega al limite de intentos te muestra el 
+//número que había generado.
+
+EJ 4
+//Realizar un algoritmo que pida números (se pedirá por teclado la cantidad de 
+//números a introducir). El programa debe informar de cuantos números introducidos 
+//son mayores que 0, menores que 0 e iguales a 0.
+
+EJ 5
+//Escribir un programa que imprima todos los números pares entre dos números que 
+//se le pidan al usuario.
+
+EJ 6
+//Realizar una algoritmo que muestre la tabla de multiplicar de un número 
+//introducido por teclado.
+
+EJ 7
+//Escribe un programa que dados dos números, uno entero (base) y un entero positivo 
+//(exponente), saque por pantalla el resultado de la potencia. No se puede 
+//utilizar el operador de potencia.
+
+EJ 8
+//Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
+
