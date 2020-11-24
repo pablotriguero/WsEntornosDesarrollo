@@ -9,7 +9,7 @@ public class Ej05_EjercicioBucles {
 		//entre dos números que se le pidan al usuario.
 			
 		Scanner sc=new Scanner(System.in);
-				
+		
 		int num1,num2;
 		
 		System.out.println("Introduce el número 1:");
@@ -26,12 +26,16 @@ public class Ej05_EjercicioBucles {
 			mayor = num1;			
 		}
 				
-		for (int i = menor; i < mayor; i++) {
+		for (int i = menor; i <= mayor; i++) {
 			if (i % 2 == 0) {
-				System.out.println("" + i);
+				System.out.println("El número par es " + i);
 			}
 		}		
 		
 		sc.close();
 	}
+	
+
+
+	
 }
