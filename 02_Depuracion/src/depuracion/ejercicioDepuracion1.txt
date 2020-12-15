@@ -1,0 +1,8 @@
+1) Depurar algunos de los ejercicios de algoritmia o del examen
+para intentar ver el flujo del programa
+2) probar a sacar alguna función y meterse dentro de ella mediante 
+el comando F5 o step into.
+3) Hacer 3 funciones, la funcion 1 llamara a la funcion2, y la funcion 2
+llamara a la funcion 3. Las funciones imprimiran sysos de lo que querais
+Poner un punto de interupcion antes de llamar a la primer ay probar las
+diferencias entre f5 y f6
