@@ -7,17 +7,20 @@ public class Coche {
 	private String matricula;
 	private String marca;
 	private String modelo;
+	private Motor motor;
 		
 	public Coche() {
 		super();
 	}
 	
-	public Coche(int id, String matricula, String marca, String modelo) {
+	public Coche(int id, String matricula, String marca, String modelo
+			,Motor motor) {
 		super();
 		this.id = id;
 		this.matricula = matricula;
 		this.marca = marca;
 		this.modelo = modelo;
+		this.motor = motor;
 	}
 	public int getId() {
 		return id;
@@ -42,6 +45,14 @@ public class Coche {
 	}
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
+	}
+
+	public Motor getMotor() {
+		return motor;
+	}
+
+	public void setMotor(Motor motor) {
+		this.motor = motor;
 	}
 	
 	
