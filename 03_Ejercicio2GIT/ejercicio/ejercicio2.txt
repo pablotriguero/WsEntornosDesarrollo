@@ -1,0 +1,26 @@
+Hacer un workspace nuevo en java con las siguientes tareas
+(podeis usar el workspace del anterior ejercicio si quereis)
+1)Crear la clase Coche con los atributos siguientes y sus
+getter y setters y constructores
+ -id
+ -matricula
+ -modelo
+ -marca
+ 
+2)Versionamos los cambios
+3) Creamos una rama para un desarrollo en paralelo el cual
+queremos añadir un motor al coche (podemos llamarla rama "motor")
+4) En dicha rama creamos la clase motor con los siguientes atributos.
+Tambien creamos los getter y los setters y constructores
+ -id
+ -tipoMotor
+ -potencia
+5) versionamos los cambios
+6) En la misma rama creamos en la clase coche un atributo de la clase
+Motor, y creamos sus setters y sus getters
+7) Versionamos
+8) Cambiamos a la rama master, y añadimos el atributo "km" al coche, creamos
+los getters y setters y modificamos constructoros
+9) Versionamos (en rama master)
+10) Fusionamos la rama master con la rama motor y solucionamos los 
+posibles conflictos (habra que crear un nuevo commit)
