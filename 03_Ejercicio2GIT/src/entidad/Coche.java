@@ -8,18 +8,22 @@ public class Coche {
 	private String marca;
 	private String modelo;
 	private int km;
+	private Motor motor;
 		
 	public Coche() {
 		super();
 	}
 	
-	public Coche(int id, String matricula, String marca, String modelo, int km) {
+
+	public Coche(int id, String matricula, String marca, String modelo
+			,Motor motor, int km) {
 		super();
 		this.id = id;
 		this.matricula = matricula;
 		this.marca = marca;
 		this.modelo = modelo;
 		this.km = km;
+		this.motor = motor;
 	}
 	public int getId() {
 		return id;
@@ -52,6 +56,13 @@ public class Coche {
 
 	public void setKm(int km) {
 		this.km = km;
+	}
+	public Motor getMotor() {
+		return motor;
+	}
+
+	public void setMotor(Motor motor) {
+		this.motor = motor;
 	}
 	
 	
