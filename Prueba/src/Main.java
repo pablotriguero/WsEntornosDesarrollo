@@ -64,6 +64,8 @@ public class Main {
 		c5 = c5 + " otro valor";
 		System.out.println(c5);
 		
+		saludar2();
+		
 	}
 	
 	public void saludar() {

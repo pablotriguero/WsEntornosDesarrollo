@@ -29,6 +29,27 @@ public class Videojuego {
 		this.nombre = nombre;
 	}
 	
-
+	public void metodoDinamico1() {
+		
+	}
 	
+	public void metodoDinamico2() {
+		metodoDinamico1();
+		metodoEstatico();
+	}
+	
+	public static void metodoEstatico() {
+		
+		
+	}
+	
+	public static void metodoEstatico2() {
+		metodoEstatico();
+		Videojuego v = new Videojuego();
+		v.metodoDinamico1();
+	}
+	
+	public static void metodoEstatico3(Videojuego v1) {
+		v1.metodoDinamico1();
+	}
 }
