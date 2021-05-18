@@ -70,7 +70,7 @@ class _01_Asserciones {
 		//Este ejemplo es como si la clase String de java no se hubiera
 		//probado y la gente de oracle nos encargara que nos asegurarmos
 		//que sus metodos funcionan
-		String cadena = new String("Hola mundo");
+		String cadena = "hola mundo";
 		// Las funciones assert son funciones de aceptación
 		
 		// Sirven para dar por valida una prueba, si no cumple un assert 
@@ -98,26 +98,30 @@ class _01_Asserciones {
 		System.out.println("Test 2");
 		String cadena = new String("Hola mundo");
 		//En este caso esperamos que sea falso
-		assertFalse(cadena.endsWith("hola"));//FASE, dariamos por buena la prueba
+		assertFalse(cadena.endsWith("hola"));//FALSE, dariamos por buena la prueba
 	}
 	
 	@Test
 	public void esIgualAHolaMundoTest() {
 		System.out.println("Test 3");
-		String cadena1 = "Hola mundo";
-		String cadena2 = new String("Hola mundo");
+		String cadena = "hola mundo";
 		//En este caso esperamos que sean iguales 
 		//(según el metodo equals())
-		assertEquals(cadena1,cadena2);
+		
+		//Vamos a testear el metodo toUpperCase()
+		String resultadoEsperado = "HOLA MUNDO";
+		assertEquals(cadena.toUpperCase(),resultadoEsperado);
 		//No solo para String, para todos los primitivos, objetos, etc
 	}
 	
 	@Test
 	public void noEsIgualAPepeTest() {
 		System.out.println("Test 4");
-		String cadena = new String("Hola mundo");
+		String cadena = "Hola Mundo";
 		//Que no sean iguales (según el metodo equals())
-		assertNotEquals("Pepe",cadena);
+		//Vamos a testear el metodo toLowerCase
+		String resultadoNoEsperado = "HOLA MUNDO";
+		assertNotEquals(cadena.toLowerCase(), resultadoNoEsperado);
 	}
 
 	@Test
@@ -192,7 +196,7 @@ class _01_Asserciones {
 		//Comprobamos si apuntan al mismo objeto(no invoca a equal, 
 		//es si la referencia apunta al mismo objeto)
 		assertSame(p1, p2);//este test falla, ya que son objetos diferentes
-		//tambien tenemos assertSame(s1,s2)
+		//tambien tenemos assertNotSame(s1,s2)
 	}
 	
 	/*
