@@ -173,7 +173,6 @@ public class _01_TestPersona {
 	public void testCalcularDistacia() {
 		// Para este test, al menos habría que probar 3 casos
 		p1.setPosicion(100);
-		
 		int distancia = p1.calcularDistancia(-50);
 		
 		//Primer caso, espero -1
