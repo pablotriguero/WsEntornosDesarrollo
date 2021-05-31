@@ -21,9 +21,13 @@ class TestUtils {
 	void testComparar() {
 		int resultadoObtenido = NumerosEnteros.comparar(5, 3);
 		int resultadoEsperado = -2;
-		assertEquals(resultadoEsperado, resultadoObtenido);
 		
-		//Probamos que no sea positivo
+		//assertEquals(resultadoEsperado, resultadoObtenido);
+		
+		//Probamos que no sea positivo, para este caso en vez de
+		//un assert ponemos una condicion y fallamos cuando sea
+		//mayor que cero. Es mejor esto que un assert en este caso
+		//ya que me permite valorar un rango.
 		if(resultadoObtenido >= 0) {
 			fail();
 		}
