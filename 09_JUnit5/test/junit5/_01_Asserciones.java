@@ -24,7 +24,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
+//import org.junit.jupiter.api.Timeout;
 
 import programa.Persona;
 
@@ -160,7 +160,7 @@ class _01_Asserciones {
 	
 	//Tiempo maximo para que se ejecute el test (en ms)
 	@Test
-	@Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
+	//@Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
 	public void timeTest() throws InterruptedException{
 		System.out.println("Test 8");
 		String cadena = new String("Hola mundo");

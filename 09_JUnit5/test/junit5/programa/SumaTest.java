@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
+//import org.junit.jupiter.api.Timeout;
 
 import programa.Suma;
 
@@ -105,7 +105,7 @@ class SumaTest {
 	 */
 
 	@Test
-	@Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
+	//@Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
 	public void timeTest() throws InterruptedException {
 
 		double resultado = suma.suma2NumerosReales(2.5, 2.5);
